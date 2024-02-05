@@ -1,0 +1,52 @@
+.drum-pad {
+  min-width: 50px;
+}
+
+#drum-machine {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border: 3px solid gold;
+  padding: 5px;
+  min-width: 50vw;
+  background-color: teal;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#display {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  width: 25vw;
+  margin-left: 15px;
+}
+
+#settings {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  width: 10vw;
+  text-align: center;
+}
+
+#latest-sound {
+  background-color: grey;
+  height: 30px;
+  width: 125px;
+  padding: 3px;
+  margin-top: 25px;
+  color: black;
+}
